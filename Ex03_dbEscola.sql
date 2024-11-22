@@ -14,10 +14,10 @@ CREATE TABLE tb_alunos (
 
 INSERT INTO tb_alunos(nome, sobrenome, periodo, turma, nota) VALUES
     ("Joaquim", "Zagiacomo", "Manhã", "A", 9),
-    ("Litha", "Zagiacomo", "Interal", "B", 7),
-    ("Khepri", "De LaRue", "Interal", "C", 6.5),
-    ("Zaria", "De LaRue", "Interal", "C", 0),
-    ("Sunny", "De LaRue", "Interal", "C", 4),
+    ("Litha", "Zagiacomo", "Integral", "B", 7),
+    ("Khepri", "De LaRue", "Integral", "C", 6.5),
+    ("Zaria", "De LaRue", "Integral", "C", 0),
+    ("Sunny", "De LaRue", "Integral", "C", 4),
     ("Cinnamon", "Rotolo", "Integral", "D", 10),
     ("Styx", "Kretzschmar", "Noite", "A", 2),
     ("Titania", "Zagiacomo Kretzschmar", "Noite", "D", 10);
