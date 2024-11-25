@@ -38,10 +38,10 @@ INSERT INTO tb_pizzas (nome, sabor, tamanho, preco, categoriaid) VALUES
     ("Pizza Banana com Canela", "Pizza doce com banana, canela e açúcar.", "Média", 75 , 2),
     
     -- Saudáveis --
-    ('Pizza Mediterrânea', 'Pizza com massa integral, queijo feta, tomates cereja, azeitonas pretas, manjericão fresco e azeite de oliva.', 'Média', 48 , 3),
+    ("Pizza Mediterrânea", "Pizza com massa integral, queijo feta, tomates cereja, azeitonas pretas, manjericão fresco e azeite de oliva.", "Média", 48 , 3),
     
     -- Veganas --
-	("Pizza Vegana", "Pizza sem ingredientes de origem animal, com cogumelos, pimentões e espinafre.", "Média", 50 , 4),
+    ("Pizza Vegana", "Pizza sem ingredientes de origem animal, com cogumelos, pimentões e espinafre.", "Média", 50 , 4),
 
     -- Infantil --
     ("Pizza Mini Margherita", "Pizza pequena tradicional com queijo e manjericão.", "Pequena", 18 , 5),
