@@ -1,5 +1,3 @@
-DROP DATABASE cidade_dos_vegetais;
-
 CREATE DATABASE cidade_dos_vegetais;
 
 USE cidade_dos_vegetais;
@@ -30,15 +28,15 @@ INSERT INTO tb_categorias (categoria, perecivel) VALUES
 
 INSERT INTO tb_produtos (nome, quantidade, datavalidade, preco, categoriaid) VALUES
 -- Frutas --
-("Morango", 50, '2024-12-10', 8.50, 1),
-("Banana", 100, '2024-12-12', 6, 1),
-("Melão Japonês", 2, '2024-12-14', 75, 1),
+("Morango", 50, "2024-12-10", 8.50, 1),
+("Banana", 100, "2024-12-12", 6, 1),
+("Melão Japonês", 2, "2024-12-14", 75, 1),
 
 -- Legumes --
-("Cenoura", 80, '2024-12-08', 4, 2),
+("Cenoura", 80, "2024-12-08", 4, 2),
 
 -- Vegetais --
-("Alho Poró", 40, '2024-12-05', 7.50, 3),
+("Alho Poró", 40, "2024-12-05", 7.50, 3),
 
 -- Ervas Secas --
 ("Alecrim", 20, NULL, 10, 4),
